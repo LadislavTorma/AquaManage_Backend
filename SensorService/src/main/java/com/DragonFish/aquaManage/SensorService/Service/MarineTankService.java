@@ -1,4 +1,4 @@
-package com.DragonFish.aquaManage.TankService.services;
+package com.DragonFish.aquaManage.SensorService.Service;
 
 import com.DragonFish.aquaManage.TankService.models.MarineTank;
 

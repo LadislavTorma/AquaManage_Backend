@@ -1,10 +1,11 @@
-package com.DragonFish.aquaManage.TankService;
+package com.DragonFish.aquaManage.SensorService;
 
+import com.DragonFish.aquaManage.SensorService.Service.PlantedTankService;
 import com.DragonFish.aquaManage.TankService.models.PlantedTank;
-import com.DragonFish.aquaManage.TankService.services.PlantedTankService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class PlantedTankServiceTest {
     private PlantedTankService plantedTankService;

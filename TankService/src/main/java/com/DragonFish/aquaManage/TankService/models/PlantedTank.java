@@ -1,11 +1,11 @@
 package com.DragonFish.aquaManage.TankService.models;
 
 public class PlantedTank implements BasicTank {
-    private double temperature;
-    private double pH;
-    private double light;
-    private double nitrate;
-    private double co2;  // Specific to planted tanks
+    public double temperature;
+    public double pH;
+    public double light;
+    public double nitrate;
+    public double co2;  // Specific to planted tanks
 
     // Implement BasicTank interface methods
     @Override
